@@ -3,7 +3,7 @@ import '../styles/Metas.css';
 import { useState } from 'react';
 
 export default function Metas({meta,funcEliminar,funcComplet}){
-    const [nuevoTexto, setNuevoTexto] = useState(meta.texto);
+    
     return(
         <div className='contenedor-meta'>
             <div className='cuadros'>            

@@ -21,7 +21,7 @@ export default function AddMetas({checkin}){
     };
     const eliminarMeta = (id) =>{
         console.log("Eliminar")
-        setMetas((prevNotas) => prevNotas.filter((meta) => meta.id !== id));
+        setMetas((prevMetas) => prevMetas.filter((meta) => meta.id !== id));
     }
     return(
         <div className='contenedor-meta-lista'>
