@@ -3,7 +3,7 @@ import '../styles/AddMetas.css';
 import { useState } from 'react';
 import Metas from './Metas';
 
-export default function AddMetas({checkin}){
+export default function AddMetas({}){
     const [nuevaMeta,setNuevaMeta]=useState('')
     const [metas,setMetas] =useState([])
     const [completado,setCompletado]=useState(0)
@@ -14,7 +14,7 @@ export default function AddMetas({checkin}){
     }
     const agregar = ()=>{
         console.log("Agregar Meta")
-        if(nuevaMeta.trim() === '') return(console.log("retorno por estar vacio"));
+        if(nuevaMeta.trim() === '') return(console.log("Vacio"));
         setMetas([...metas,{id:Date.now(), texto: nuevaMeta}]);
         setNuevaMeta('');
         setIncompleto(incompleto+1);            
