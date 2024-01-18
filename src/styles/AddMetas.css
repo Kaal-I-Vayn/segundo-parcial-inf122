@@ -1,0 +1,33 @@
+:root{
+    --white:#ffffff;
+    --black:#1B1C1F;
+    --sm:8px;
+    --md:16px;
+    --lg:32px;
+    --colorboton:#1C9675;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;500;700;900&display=swap');
+.text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}  
+.boton-addmeta{
+    background-color: var(--colorboton);
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    
+}  
+.entrada-cuadro{
+    background-color: var(--white);
+    border-radius: 8px 0px 0px 8px;
+        
+}
+.contenedor-meta-lista{
+    margin: 10px;
+    
+}
+.contenedor-meta-lista h1{
+    color: var(--white);
+    margin: 15px;
+}

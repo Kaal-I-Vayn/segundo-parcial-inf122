@@ -1,4 +1,44 @@
+:root{
+    --white:#ffffff;
+    --black:#1B1C1F;
+    --sm:8px;
+    --md:16px;
+    --lg:32px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;500;700;900&display=swap');
+  
 .contenedor-meta{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20%;
+    margin-right: 20%;    
+    border-radius: 12px;
+    background-color: white;    
 }
+.cuadros{
+    border-radius: 8px;
+    margin: 10px;
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    justify-self: center    ;
+}
+
+.cuadros p{
+    margin-top: 5px;
+    background-color: var(--white);
+    text-align: left;        
+}
+.cuadros button{    
+    width: 30px;
+    height: 30px;
+    
+    background-color: var(--white); 
+    color: var(--white);   
+}
+.cuadros img{
+    width: 20px;
+    height: 20px;
+}
+
+
