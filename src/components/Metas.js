@@ -8,8 +8,8 @@ export default function Metas({meta,funcEliminar,funcComplet}){
         <div className='contenedor-meta'>
             <div className='cuadros'>            
             <p className='meta'>{meta.texto}</p>            
-            <button className='eliminar' onClick={() => funcEliminar(meta.id)}><img src={require(`../images/trash 1.svg`)}/></button>
-            <button className='check' onClick={()=> funcComplet(meta.id)}><img src={require(`../images/check-circle 1.svg`)}/></button>                        
+            <button className='eliminar' onClick={() => funcEliminar(meta.id)}><img src={require(`../images/trash.png`)}/></button>
+            <button className='check' onClick={()=> funcComplet(meta.id)}><img src={require(`../images/check.png`)}/></button>
             </div>    
         
         </div>
